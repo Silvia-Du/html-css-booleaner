@@ -21,9 +21,10 @@ h1{
   margin-top: 20px;
 }
 
-#sottotitolo{
+.sottotesto{
   color: gray;
-  font-size: 30px;
+  font-size: 25px;
+  display: block;
 }
 
 .imgtim{
@@ -54,4 +55,12 @@ main section{
 
 .row_color{
   background-color: #b1e5f2;
+}
+
+footer{
+  margin-top: 50px;
+}
+
+#monitor{
+  display: block;
 }
