@@ -4,25 +4,36 @@
   box-sizing: border-box;
 }
 
-.cornice{
-  width: 100%;
-  height: 12vh;
-  background-color: rgba(78,160,255,255);
+.nav{
+  background-color: #4ea0ff;
   background-image: url(../img/pattern.png);
-  background-size: 25% auto;
-  color: white;
-  position: relative;
+  height: 15vh;
 }
 
-.the{
-  font-size: 1rem;
-  position: absolute;
-  bottom: 10px;
+#logo{
+  width: 250px;
+  margin-top: 70px;
+  margin-left: 20px;
 }
 
-.booleaner{
-  font-size: 50px;
-  position: absolute;
-  bottom: 0;
-  left: 20px;
+h1{
+  font-size: 70px;
+  margin-top: 20px;
 }
+
+#sottotitolo{
+  color: gray;
+  font-size: 30px;
+}
+
+.imgtim{
+  width: 47vw;
+  height: 400px;
+  background-color: #4ea0ff;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+
+
+
