@@ -62,6 +62,24 @@ footer{
   margin-top: 50px;
 }
 
-#monitor{
-  display: block;
+.img_footer{
+  width: 15vw;
+  height: 20vh;
+  background-color: red;
+  border: 1px solid black;
+  font-size: 25px;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
 }
+
+.monitor{
+  background-image: url(../img/monitor.jpg);
+  background-size: cover;
+}
+
+.graph{
+  background-image: url(../img/graph.jpg);
+  background-size: cover;
+}
+
