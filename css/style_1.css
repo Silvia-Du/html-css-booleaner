@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-/* inizio css nav & header */
+/* inizio header */
 
-.nav{
+.barra-intestazione{
   background-color: #4ea0ff;
   background-image: url(../img/pattern.png);
   height: 18vh;
@@ -16,28 +16,6 @@
   width: 300px;
   margin-top: 70px;
   margin-left: 20px;
-}
-
-/* inizio css da h1 */
-
-h1{
-  font-size: 70px;
-  margin-top: 20px;
-}
-
-.sottotesto{
-  color: gray;
-  font-size: 25px;
-  display: block;
-}
-
-#link_booleaner{
-  text-decoration: none;
-  color: #58beeb;
-}
-
-.tim_img{
-  height: 68vh;
 }
 
 /* inizio css main */
@@ -52,12 +30,38 @@ main section{
   margin-top: 50px;
 }
 
+h1{
+  font-size: 70px;
+  margin-top: 20px;
+}
+
+.sottotesto{
+  color: gray;
+  font-size: 25px;
+  display: block;
+}
+
+table{
+  border-spacing: 0;
+}
+
+#link_booleaner{
+  text-decoration: none;
+  color: #58beeb;
+}
+
+.tim_img{
+  height: 68vh;
+}
+
 #thead{
   background-color: #20a9e5;
+  text-align: left;
+  color: white;
 }
 
 #cella_speciale{
-  width: 65%;
+  width: 60%;
 }
 
 .row_color{
@@ -73,7 +77,6 @@ footer{
 .img_footer{
   width: 15vw;
   height: 20vh;
-  background-color: red;
   border: 1px solid black;
   font-size: 25px;
   color: white;

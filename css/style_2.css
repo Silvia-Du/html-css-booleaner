@@ -1,14 +1,12 @@
 
 *{
   margin: 0;
-  margin-left: 2vw;
-  margin-right: 2vw;
   box-sizing: border-box;
 }
 
 /* inizio css nav & header */
 
-.nav{
+.barra-intestazione{
   background-color: #4ea0ff;
   background-image: url(../img/pattern.png);
   height: 18vh;
